@@ -42,7 +42,7 @@ function App() {
       <div className="resume" ref={resumeRef}>
         <h1 style={{textAlign: "center", color: "darkblue", fontSize: "40px"}}>Hemali Kalsariya</h1>
         <p style={{textAlign:"center", fontSize:"20px", borderBottom: "5px solid darkblue", paddingBottom: "5px"}}>
-          +91 9274916821 |  <span style={{color: "white"}}>xyz      </span>hemukalsariya7705@gmail.com
+          +91 9274916821 ||     hemukalsariya7705@gmail.com
         </p>
         <br />
         <h2 style={{color: "darkblue", fontSize: "30px", marginBottom: "10px", borderBottom: "3px solid darkblue", paddingBottom: "5px"}} >
@@ -86,7 +86,8 @@ function App() {
         <p style={{fontSize: "18px", marginBottom: "20px"}}>
          I have worked on several projects during my academic journey, including a personal portfolio website built using HTML and JavaScript. Additionally, I have completed a React-based to-do list application that allows users to manage their tasks efficiently. 
         </p>
-        <p>
+        <br />
+        <p style={{fontSize: "18px", marginBottom: "20px"}}>
           I am also currently working on a Node.js project that involves creating a simple RESTful API for a blog application. These projects have helped me develop my coding skills and gain practical experience in software development.
         </p>
         
@@ -120,9 +121,9 @@ function App() {
           <li>Gujarati (Native)</li>
         </ul>
 
-        <button onClick={downLoadPDF} className="btn" style={{padding: "10px 20px", marginTop: "20px", fontSize: "16px", backgroundColor: "darkblue", color: "white", border: "none", borderRadius: "10px", cursor: "pointer"}}>
+        {/* <button onClick={downLoadPDF} className="btn" style={{padding: "10px 20px", marginTop: "20px", fontSize: "16px", backgroundColor: "darkblue", color: "white", border: "none", borderRadius: "10px", cursor: "pointer"}}>
           Download PDF
-        </button>
+        </button> */}
 
       </div>
       </div>
