@@ -1,9 +1,9 @@
-
+import Chai from "./chai";
 
 function App() {
   
   return (
-<h1>chai aur react with vite | Hemali Kalsariya</h1>
+    <Chai />
   )
 }
 
