@@ -91,12 +91,23 @@ function App() {
           I am also currently working on a Node.js project that involves creating a simple RESTful API for a blog application. These projects have helped me develop my coding skills and gain practical experience in software development.
         </p>
         
-          <h3 style={{fontSize:"20px", marginBottom:"25px"}}>Resume Builder App</h3>
+          <h4 style={{fontSize:"20px", marginBottom:"25px" ,color: "darkblue"}}>Project 1 : Resume Builder App</h4>
           <p style={{fontSize: "18px", marginBottom: "20px"}}> 
             <b>Technology:</b> React, JavaScript, HTML
          </p> 
           <p style={{fontSize: "18px", marginBottom: "20px"}}>  
             <b>Description:</b> Developed a resume builder application with PDF download feature.
+          </p>
+          <br />
+        <h4 style={{fontSize:"20px", marginBottom:"25px" ,color: "darkblue"}}>Project 2 : YouTube Shorts Clone</h4>
+          <p style={{fontSize: "18px", marginBottom: "20px"}}>
+            <b>Technology:</b> React, JavaScript, HTML
+          </p>
+          <p style={{fontSize: "18px", marginBottom: "20px"}}>  
+            <b>Description:</b> Developed a mobile-responsive YouTube Shorts style web application 
+            using React JS. Implemented Like, Comment, Share features and 
+            auto-play on scroll functionality.
+
           </p>
 
         <br />
